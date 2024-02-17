@@ -5,7 +5,7 @@ function sub() {
 
 
     const apiKey = "a6a3bb8e5867442294a111107232805";
-    const apiUrl = "http://api.weatherapi.com/v1/forecast.json";
+    const apiUrl = "https://api.weatherapi.com/v1/forecast.json";
     let cityName = document.getElementById("city-name").value
 
     if (cityName != "") {
